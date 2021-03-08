@@ -1,0 +1,185 @@
+.header {
+    /* color: #fff; */
+    overflow: hidden;
+}
+
+.header img {
+    width: 40px;
+    float: left;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.TopBar-1 {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    list-style: none;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+#TB1 {
+    margin-left: 25px;
+}
+
+a:any-link {
+    color: #212121;
+    text-decoration: none;
+}
+
+#logout {
+    color: #212121;
+    float: right;
+    margin-bottom: 0;
+}
+
+#logout button {
+    width: 75px;
+    color: #fff;
+    background-color: red;
+    border-radius: 10px;
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#warning-log {
+    /* background-color: #212121; */
+    color: #ff0000;
+    /* width: 75px; */
+    /* margin-top: 100px; */
+    float: right;   
+    border: none;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+/* Home */
+
+.Home {
+    /* background-color: rgba(255, 255, 255, .5); */
+    text-transform: uppercase;
+    border-top: 1px solid rgba(139, 136, 136, 0.425);
+    margin-top: 75px;
+    height: 745px;
+}
+
+.Home h2 {
+    color: #212121;
+}
+
+.row {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.col-sm {
+    border: 1px solid #212121;
+    width: 20%;
+    float: left;
+    margin: 0 10px;
+    border-radius: 10px;
+    padding-top: 25px;
+}
+
+.col-sm p {
+    font-size: 10px;
+    padding: 0px 10px 0px 10px;
+    text-align: justify;
+}
+
+.col-sm img {
+    width: 250px;
+}
+
+/* Login */
+
+.Login {
+    height: 745px;
+    border-top: 1px solid rgba(139, 136, 136, 0.425);
+    margin-top: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.Login button {
+    width: 100px;
+    height: 50px;
+    background-color: #212121;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 75px;
+    font-size: 20px;
+}
+
+/* Data Page */
+
+.header-2 {
+    overflow: hidden;
+    margin-top: 75px;
+    border-top: 1px solid rgba(139, 136, 136, 0.425);
+    height: 745px;
+}
+
+.header-2 ul {
+    margin-left: 60px;
+}
+
+.TopBar-2 {
+    list-style: none;
+    float: left;
+    text-align: center;
+    justify-content: center;
+    padding: 14px 16px;
+    font-size: 15px;
+    font-weight: 500;
+    width: 100px;
+    height: 30px;
+    /* background-color: blue; */
+    border: 1px solid #212121;
+    margin: 0px 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+    /* color: blue; */
+}
+
+/* Data Macbook */
+
+.Data-Macbook {
+    /* background-color: grey; */
+    height: 650px;
+    margin-top: 100px;
+}
+
+.table-mac {
+     display: flex;
+     justify-content: center;
+}
+
+table, th, td  {
+    border: 1px solid #212121;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+}
+
+/* Data Iphone */
+
+.Data-Iphone {
+    /* background-color: grey; */
+    height: 650px;
+    margin-top: 100px;
+}
